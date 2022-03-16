@@ -1,2 +1,0 @@
-# jenkins
-echo "Heloo world"
