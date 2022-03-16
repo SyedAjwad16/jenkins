@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.topbar {
+    background: #007bff;
+    padding: 10px 0px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.d-md-block{
+    display: block!important;
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50px;
+ 
+
+}
+.col-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.topbar .mail {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.topbar .mail {
+    font-size: 14px;
+}
+.topbar .no {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.m-auto {
+    margin: auto!important;
+}
+.text-right {
+    text-align: right!important;
+}
+.topbar .guest_btn a {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 5px;
+}
+.topbar .guest_btn a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+div{
+    display: block;
+}
+a{
+    background-color: transparent;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.far{
+-webkit-font-smoothing: antialiased;
+display: inline-block;
+font-style: normal;
+font-variant: normal;
+text-rendering: auto;
+line-height: 1;
+}
+.topnav{
+    background-color: brown;
+    overflow: hidden;
+
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  h4{
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: #fff;
+
+  }
+  .footer_about hr{
+      background: #fff;
+
+  }
+   .footer_about p {
+    color: #fff !important;
+}
+.text-justify {
+    text-align: justify!important;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+.links ul {
+    list-style: none;
+}
+.slide-container{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+
+}
+.image-container{
+    width: 2400px;
+    height: 200px;
+    position: relative;
+    transition:  left 2s;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+}
+.slide-image{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container{
+    top:-20px;
+    position: relative;
+}
+.slider-button{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(179, 24, 24);
+}
+#slider-image-1:target ~.image-container{
+    left: 0px;
+
+}
+#slider-image-2:target~.image-container{
+left: -500px;
+}
+#slider-image-1:target~.image-container{
+left: -400px;
+}
+footer{
+    padding: 30px 0px;
+    background-color: #007bff;
+
+
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    border-top:1px solid rgb(0,0,0,.1);
+}
+.d-flex{
+    display: flex!important;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+} ul li a{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+ ul li{
+    margin: 0px 10px;
+    text-decoration: none;
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+    text-indent:initial;
+    border-spacing: 2px;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.footer_contact table tr td{
+    color: #fff;
+    padding: 8px;
+    display: table-cell;
+    vertical-align: inherit;
+
+
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.column{
+    float: left;
+    width: 50%;
+   padding: 0 10px;
+}
